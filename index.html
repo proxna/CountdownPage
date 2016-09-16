@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="bower_components/angular/angular-csp.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
+</head>
+<body>
+    <div class="main-watch" ng-controller="mainCtrl" ng-clock>
+        <h1>{{time.days}}:{{time.hours}}:{{time.minutes}}:{{time.seconds}}</h1>
+    </div>
+    <div class="rings">
+        <div class='ring'></div>
+        <div class='ring'></div>
+        <div class='ring'></div>
+        <div class='ring'></div>
+    </div>
+</body>
+</html>

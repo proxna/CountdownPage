@@ -1,0 +1,10 @@
+{
+  "name": "countdown",
+  "authors": [
+    "Paweł Gajzler <pawel.gajzler.pg@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": ""
+}
