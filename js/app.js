@@ -7,7 +7,7 @@ define(function(){
     mainModule.factory('watchFactory', function($http){
         return{
             getTime:function () {
-                return $http.get('http://proxna.github.io/CountdownPage/php/time.php').then(function (result) {
+                return $http.get('https://proxna.github.io/CountdownPage/php/time.php').then(function (result) {
                     return result.data;
                 });
             }
